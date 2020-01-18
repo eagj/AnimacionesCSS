@@ -1,0 +1,92 @@
+body {
+    margin: 0
+}
+.hidden{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+#header {
+    background-color: darkcyan;
+    position: relative;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(https://live.staticflickr.com/3851/14639811877_c64e505e45_k_d.jpg);
+    background-position: center center;
+    animation-duration: 2s;
+    z-index: 2;
+    
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 5em;
+    font-family: helvetica;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    
+    
+}
+
+.subtitle {
+    position: relative;        
+    color: lightgoldenrodyellow;
+    z-index: 2;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 2em;
+    font-family: arial;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    width: 50%;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+#sec1 {    
+    background: #fff url(https://live.staticflickr.com/3878/14806364214_c7f665d23d_k_d.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-color: darkcyan;
+    position: relative;    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;    
+    background-position: center center;
+    animation-duration: 3s;
+    
+}
+#titulosec1{
+    animation-duration: 2s;
+}
+#titulosub1{
+    animation-duration: 1s;
+    animation-delay: .5s;
+}
+
+#sec2 {
+    background: #fff url(https://live.staticflickr.com/2933/14264398194_c16f065f9c_k_d.jpg) no-repeat center center;
+    background-attachment: fixed;
+    height: 110vh;
+}
